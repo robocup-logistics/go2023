@@ -1,0 +1,42 @@
+# Main Title
+main:
+  header:
+    title : "RoboCup Aachen 2023" # Title Text
+    description : "Official decentralised Logistics League event for the RoboCup German Open 2023." # Title Desc
+    button:
+      text: "Learn More" # Button Text
+      url: "#about" # Button URL
+
+# About
+about:
+  title: "RoboCup Logistics League - German Open 2023"
+  desc: "Aachen will host the official 2023 German Open for the RoboCup Logistics League (RCLL) again!\n\n
+  Like in 2022, the German Open will be conducted in a decentralized way, with each major league organizing their own local events."
+  image: "assets/img/rcllac-field.svg"
+
+
+date:
+  date: "April 24th - April 30th, 2023"
+  location: "Campus Melaten, RWTH Aachen University"
+
+support:
+  title: "Support"
+  supportlogos: "assets/img/rcllac-website-logobar.svg"
+  support: "The RCLL German Open 2023 is organized and supported by the Laboratory for Machine Tools and Production Engineering (WZL) and the Knowledge-Based Systems Group of RWTH Aachen University and the MASCOR Institute of FH Aachen University of Applied Sciences."
+  sponsor: "We would like to thank our event sponsors ."
+  sponsorlogos: "assets/img/rcllac-website-logobar.svg"
+
+event:
+  title: "Event"
+  card1:
+    title: "RoboCup Logistics League"
+    text: "In the RCLL, teams develop state-of-the-art autonomous logistics robots towards a 24/7 just-in-time manufacturing plant for customizable products. Important research challenges include planning and scheduling, navigation, failure recovery, and manipulation."
+    img: "assets/img/rcll-bw.jpg"
+  card2:
+    title: "Registration"
+    text: "Interested? Please contact the local organizing committee (below) to inquire details about registration and organization."
+    img: ""
+  card3:
+    title: "Schedule"
+    text: "The competition will take place between April 24th and April 30th, 2023, with the first and last day reserved for arrival and departure. A detailed schedule will be released in the next weeks."
+    img: ""

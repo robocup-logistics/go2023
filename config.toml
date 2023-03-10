@@ -1,0 +1,49 @@
+baseURL = 'http://ll.robocup.org/'
+languageCode = 'en-us'
+theme = 'graysx-rcll'
+title = 'RoboCup German Open 2023 - Logistics League'
+
+## Site Settings
+[params]
+logo = "assets/img/rcllac-website-logo.PNG"
+favicon = "assets/favicon.png"
+
+# Info
+location = "RWTH Aachen University"
+street = "Campus-Boulevard 30"
+city = "52074 Aachen"
+name = "Matteo Tschesche"
+affiliation = "Local Organizing Committee"
+email = "tschesche@fh-aachen.de"
+
+# Socials
+
+github = "https://github.com/robocup-logistics"
+website = "https://ll.robocup.org"
+university = "https://rwth-aachen.de"
+
+# Other
+
+sbtoken = "TOKEN_HERE"
+
+## Menu Items
+[menu]
+  [[menu.main]]
+  name = "About"
+  URL = "#about"
+  weight = 1
+
+  [[menu.main]]
+  name = "Support"
+  URL = "#support"
+  weight = 2
+
+  [[menu.main]]
+  name = "Event"
+  URL = "#event"
+  weight = 3
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
