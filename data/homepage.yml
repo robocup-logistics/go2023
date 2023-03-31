@@ -30,7 +30,7 @@ event:
   title: "Event"
   card1:
     title: "RoboCup Logistics League"
-    text: "In the RCLL, teams develop state-of-the-art autonomous logistics robots towards a 24/7 just-in-time manufacturing plant for customizable products. Important research challenges include planning and scheduling, navigation, failure recovery, and manipulation."
+    text: "In the RCLL, teams develop state-of-the-art autonomous logistics robots towards a 24/7 just-in-time manufacturing plant for customizable products. Important research challenges include planning and scheduling, navigation, failure recovery, and manipulation. The 2023 rules are available [here](https://github.com/robocup-logistics/rcll-rulebook/releases/tag/2023)."
     img: "assets/img/rcll-bw-cropped.jpg"
   card2:
     title: "Registration"
