@@ -31,10 +31,10 @@ event:
   card1:
     title: "RoboCup Logistics League"
     text: "In the RCLL, teams develop state-of-the-art autonomous logistics robots towards a 24/7 just-in-time manufacturing plant for customizable products. Important research challenges include planning and scheduling, navigation, failure recovery, and manipulation."
-    img: "assets/img/rcll-bw.jpg"
+    img: "assets/img/rcll-bw-cropped.jpg"
   card2:
     title: "Registration"
-    text: "Interested? Registration is open until March 24th! There is no registration fee. Please contact the local organizing committee (below) to inquire details about registration and organization."
+    text: "Team registration is closed! We can not offer access for spectators during the duration of the event. Please contact the local organizing committee to inquire about short term visits."
     img: ""
   card3:
     title: "Schedule"
