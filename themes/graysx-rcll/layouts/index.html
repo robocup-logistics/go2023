@@ -91,49 +91,90 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-6 text-start">
+                    <div class="bg-dark project">
+                        <div class="d-flex h-100">
+                            <div class="p-5 px-4 w-100 my-auto text-lg-left">
+                                <h3 class="text-white">{{ .card3.schedulehead }}</h4>
+                            </div>
+                        </div>
+                        {{ range .card3.schedule }}
+                        <div class="row  p-2">
+                            <div class="col-lg-3 text-lg-left  px-4">
+                                <h4 class="text-primary">{{ .day }}</h4>
+                                <h5 class="text-primary">{{ .weekday }}</h5>
+                            </div>
+                            <div class="col-lg">
+                                {{ range .daysched }}
+                                <div class="row text-light">
+                                    <div class="col text-lg-left px-4">
+                                        <h5 class="">{{ .name }}</h4>
+                                    </div>
+                                    <div class="col-4 text-end px-4">
+                                        <h5 class="text-right">{{ .time }}</h4>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="text-light px-4">
+                                        {{ .desc }}
+                                    </div>
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                        {{ end }}
+                        <div class="p-4"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 text-start">
+
+                <div class="col-lg-6">
+                    <div class="bg-danger project">
+                        <div class="d-flex h-100">
+                            <div class="p-5 px-4 w-100 my-auto text-lg-left">
+                                <h3 class="text-white">{{ .card2.teamshead }}</h4>
+                            </div>
+                        </div>
+                        {{ range .card2.teams }}
+                        <div class="row  p-2">
+                            <div class="col-lg text-lg-left px-4">
+                                <h5 class="text-white fw-bold">{{ .name }}</h4>
+                                    <h6 class="text-white">{{ .university }}
+                                </h5>
+                            </div>
+                            <div class="col-lg text-end">
+                                <div class="row text-light">
+                                    <div class="col text-lg-left px-4">
+                                        <h5 class="">{{ .country }}</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h6 class="text-light px-4">
+                                        {{ .special }}
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                        <div class="p-4"></div>
+                    </div>
+                </div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">{{ .card2.title }}</h4>
-                                <p class="mb-0 text-white-50">{{ .card2.text }}</p>
+                                <p class="mb-0 text-white-50">{{ .card2.text | markdownify }}</p>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Project One Row-->
-            <!--<div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="{{ .card2.img }}" alt="..." /></div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">{{ .card2.title }}</h4>
-                                <p class="mb-0 text-white-50">{{ .card2.text }}</p>
-                                <hr class="d-none d-lg-block mb-0 ms-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-            <!-- Project Two Row-->
-            <!--<div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="{{ .card3.img }}" alt="..." /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">{{ .card3.title }}</h4>
-                                <p class="mb-0 text-white-50">{{ .card3.text }}</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
         </div>
     </section>
     {{ end }}

@@ -36,7 +36,97 @@ event:
     title: "Registration"
     text: "**Team registration is closed!** We are looking forward to members of 5 times participating locally and virtually! We can not offer general access for spectators during the duration of the event. Please contact the local organizing committee to inquire about short term visits."
     img: ""
+    teamshead: "Registered Teams"
+    teams:
+      - Carologistics:
+        name: "Carologistics"
+        university: "RWTH Aachen University and FH Aachen"
+        country: "Germany"
+        special: ""
+      - GRIPS:
+        name: "GRIPS"
+        university: "TU Graz"
+        country: "Austria"
+        special: ""
+      - Solidus:
+        name: "Solidus"
+        university: "HFTM Mittelland"
+        country: "Switzerland"
+        special: ""
+      - BabyTigers:
+        name: "BabyTigers"
+        university: "Ryokoku University"
+        country: "Japan"
+        special: "Online Participation"
+      - Mexican Team:
+        name: "Pumas"
+        university: "National Autonomous University of Mexico"
+        country: "Mexico"
+        special: "Invited Delegation"
   card3:
     title: "Schedule"
     text: "The competition will take place between April 24th and April 30th, 2023, with the first and last day reserved for arrival and departure. A detailed schedule will be released in the next weeks."
     img: ""
+    schedulehead: "2023 April"
+    schedule:
+      - mon:
+        day: "24th"
+        weekday: "Mon"
+        daysched:
+          - registration:
+            name: "Arrival"
+            desc: ""
+            time: "09:00am"
+          - preparation:
+            name: "Set-up Time"
+            desc: "Designated time for teams to assemble their robots and test components."
+            time: "10:00am"
+      # - tue:
+      #   day: "25th"
+      #   weekday: "Tue"
+      #   daysched:
+      #     - open:
+      #       name: "Open"
+      #       desc: ""
+      #       time: "09:00am"
+      # - wed:
+      #   day: "26th"
+      #   weekday: "Wed"
+      #   daysched:
+      #     - open:
+      #       name: "Open"
+      #       desc: ""
+      #       time: "09:00am"
+      # - thu:
+      #   day: "27th"
+      #   weekday: "Thu"
+      #   daysched:
+      #     - open:
+      #       name: "Open"
+      #       desc: ""
+      #       time: "09:00am"
+      # - fri:
+      #   day: "28th"
+      #   weekday: "Fri"
+      #   daysched:
+      #     - open:
+      #       name: "Open"
+      #       desc: ""
+      #       time: "09:00am"
+      # - sat:
+      #   day: "29th"
+      #   weekday: "Sat"
+      #   daysched:
+      #     - open:
+      #       name: "Open"
+      #       desc: ""
+      #       time: "09:00am"
+      - sun:
+        day: "30th"
+        weekday: "Sun"
+        daysched:
+          - open:
+            name: "Teardown and Departure"
+            desc: "Designated time for teams to disassemble their robots and depart."
+            time: "09:00am"
+
