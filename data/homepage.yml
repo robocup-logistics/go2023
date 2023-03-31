@@ -34,7 +34,7 @@ event:
     img: "assets/img/rcll-bw-cropped.jpg"
   card2:
     title: "Registration"
-    text: "Team registration is closed! We can not offer access for spectators during the duration of the event. Please contact the local organizing committee to inquire about short term visits."
+    text: "**Team registration is closed!** We are looking forward to members of 5 times participating locally and virtually! We can not offer general access for spectators during the duration of the event. Please contact the local organizing committee to inquire about short term visits."
     img: ""
   card3:
     title: "Schedule"
