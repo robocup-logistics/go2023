@@ -12707,6 +12707,11 @@ body {
   font-size: 90%;
 }
 
+.text-white-50 p {
+  color: white !important;
+}
+
+
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
@@ -12788,4 +12793,8 @@ body {
 .about-btn {
   margin-top: -50px;
   margin-bottom: 20px;
+}
+
+.card3-text ul {
+  text-align: left !important;
 }

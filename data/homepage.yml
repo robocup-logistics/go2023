@@ -76,51 +76,207 @@ event:
           - registration:
             name: "Arrival"
             desc: ""
-            time: "09:00am"
+            time: "08:00am"
           - preparation:
             name: "Set-up Time"
             desc: "Designated time for teams to assemble their robots and test components."
             time: "10:00am"
-      # - tue:
-      #   day: "25th"
-      #   weekday: "Tue"
-      #   daysched:
-      #     - open:
-      #       name: "Open"
-      #       desc: ""
-      #       time: "09:00am"
-      # - wed:
-      #   day: "26th"
-      #   weekday: "Wed"
-      #   daysched:
-      #     - open:
-      #       name: "Open"
-      #       desc: ""
-      #       time: "09:00am"
-      # - thu:
-      #   day: "27th"
-      #   weekday: "Thu"
-      #   daysched:
-      #     - open:
-      #       name: "Open"
-      #       desc: ""
-      #       time: "09:00am"
-      # - fri:
-      #   day: "28th"
-      #   weekday: "Fri"
-      #   daysched:
-      #     - open:
-      #       name: "Open"
-      #       desc: ""
-      #       time: "09:00am"
-      # - sat:
-      #   day: "29th"
-      #   weekday: "Sat"
-      #   daysched:
-      #     - open:
-      #       name: "Open"
-      #       desc: ""
-      #       time: "09:00am"
+      - tue:
+        day: "25th"
+        weekday: "Tue"
+        daysched:
+          - open:
+            name: "Open Hall"
+            desc: "Open access to the hall until 10pm."
+            time: "08:00am"
+      - wed:
+        day: "26th"
+        weekday: "Wed"
+        daysched:
+          - open:
+            name: "Open Hall"
+            desc: "until 10pm."
+            time: "08:00am"
+          - simulation:
+            name: "Simulation Challenge"
+            desc: ""
+            time: "04:00pm"
+      - thu:
+        day: "27th"
+        weekday: "Thu"
+        daysched:
+          - open:
+            name: "Open Hall"
+            desc: ""
+            time: "08:00am"
+          - gt1:
+            name: "Game Setup"
+            desc: ""
+            time: "10:00am"
+          - gt2:
+            name: "**Main-track Slot**"
+            desc: ""
+            time: "10:30am"
+          - gt3:
+            name: "**Challenge Slot**"
+            desc: ""
+            time: "11:15am"
+          - gt4:
+            name: "Lunch Break"
+            desc: ""
+            time: "12:00pm"
+          - gt5:
+            name: "Game Setup"
+            desc: ""
+            time: "01:00pm"
+          - gt6:
+            name: "**Main-track Slot**"
+            desc: ""
+            time: "01:30pm"
+          - gt7:
+            name: "**Challenge Slot**"
+            desc: ""
+            time: "02:00pm"
+          - gt8:
+            name: "Break"
+            desc: ""
+            time: "02:45pm"
+          - gt9:
+            name: "**Challenge Slot**"
+            desc: ""
+            time: "03:30pm"
+          - gt10:
+            name: "Open Hall"
+            desc: "until 10pm."
+            time: "04:15pm"
+      - fri:
+        day: "28th"
+        weekday: "Fri"
+        daysched:
+          - open:
+            name: "Open Hall"
+            desc: ""
+            time: "08:00am"
+          - gt1:
+            name: "Game Setup"
+            desc: ""
+            time: "10:00am"
+          - gt2:
+            name: "**Main-track Slot**"
+            desc: ""
+            time: "10:30am"
+          - gt3:
+            name: "**Challenge Slot**"
+            desc: ""
+            time: "11:15am"
+          - gt4:
+            name: "Lunch Break"
+            desc: ""
+            time: "12:00pm"
+          - gt5:
+            name: "Game Setup"
+            desc: ""
+            time: "01:00pm"
+          - gt6:
+            name: "**Main-track Slot**"
+            desc: ""
+            time: "01:30pm"
+          - gt7:
+            name: "**Challenge Slot**"
+            desc: ""
+            time: "02:00pm"
+          - gt8:
+            name: "Break"
+            desc: ""
+            time: "02:45pm"
+          - gt9:
+            name: "**Challenge Slot**"
+            desc: ""
+            time: "03:30pm"
+          - gt10:
+            name: "Game Setup"
+            desc: ""
+            time: "04:15pm"
+          - gt11:
+            name: "**Main-track Slot**"
+            desc: ""
+            time: "04:45pm"
+          - gt12:
+            name: "Open Hall"
+            desc: "until 10pm."
+            time: "05:15pm"
+      - sat:
+        day: "29th"
+        weekday: "Sat"
+        daysched:
+          - open:
+            name: "Open Hall"
+            desc: ""
+            time: "08:00am"
+          - gt1:
+            name: "Game Setup"
+            desc: ""
+            time: "10:00am"
+          - gt2:
+            name: "**Main-track Slot**"
+            desc: ""
+            time: "10:30am"
+          - gt3:
+            name: "Break"
+            desc: ""
+            time: "11:00am"
+          - gt4:
+            name: "Game Setup"
+            desc: ""
+            time: "11:15am"
+          - gt5:
+            name: "**Main-track Slot**"
+            desc: ""
+            time: "11:45am"
+          - gt6:
+            name: "Lunch Break"
+            desc: ""
+            time: "12:15pm"
+          - gt7:
+            name: "Game Setup"
+            desc: ""
+            time: "01:15pm"
+          - gt8:
+            name: "**Main-track Slot**"
+            desc: ""
+            time: "01:45pm"
+          - gt9:
+            name: "Break"
+            desc: ""
+            time: "02:15pm"
+          - gt10:
+            name: "Game Setup"
+            desc: ""
+            time: "02:30pm"
+          - gt11:
+            name: "**Main-track Slot**"
+            desc: ""
+            time: "03:00pm"
+          - gt12:
+            name: "Break"
+            desc: ""
+            time: "03:30pm"
+          - gt13:
+            name: "Game Setup"
+            desc: ""
+            time: "04:00pm"
+          - gt14:
+            name: "**Main-track Slot**"
+            desc: ""
+            time: "04:30pm"
+          - gt15:
+            name: "Break"
+            desc: ""
+            time: "05:00pm"
+          - gt16:
+            name: "**Award Ceremony**"
+            desc: ""
+            time: "05:15pm"
       - sun:
         day: "30th"
         weekday: "Sun"
@@ -128,5 +284,5 @@ event:
           - open:
             name: "Teardown and Departure"
             desc: "Designated time for teams to disassemble their robots and depart."
-            time: "09:00am"
+            time: "08:00am"
 
