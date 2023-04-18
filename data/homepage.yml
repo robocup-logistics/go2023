@@ -33,7 +33,7 @@ event:
     text: "In the RCLL, teams develop state-of-the-art autonomous logistics robots towards a 24/7 just-in-time manufacturing plant for customizable products. Important research challenges include planning and scheduling, navigation, failure recovery, and manipulation. The 2023 rules are available [here](https://github.com/robocup-logistics/rcll-rulebook/releases/tag/2023)."
     img: "assets/img/rcll-bw-cropped.jpg"
   card2:
-    title: "Registration"
+    title: "Registration Information"
     text: "**Team registration is closed!** We are looking forward to members of 5 times participating locally and virtually! We can not offer general access for spectators during the duration of the event. Please contact the local organizing committee to inquire about short term visits."
     img: ""
     teamshead: "Registered Teams"
@@ -64,7 +64,7 @@ event:
         country: "Mexico"
         special: "Invited Delegation"
   card3:
-    title: "Schedule"
+    title: "Schedule and Procedures"
     text: |
       The competition will take place between April 24th and April 30th, 2023, with the first and last day reserved for arrival and departure.
       All times
@@ -80,12 +80,12 @@ event:
         - Participants can schedule up to six 30-minute slots between April 24th, 00:00am and April 29th, 4:00pm (UTC+2).
         - Live stream needs to be provided.
         - The video and refbox logs of each challenge needs to be send to the OC before April 29th, 12:00am (UTC+2) via email: robocup-logistics-oc@lists.rwth-aachen.de
-        - Challenge schedule for the next day needs to be written in the OC slack until 24:00.
+        - The challenge schedule for the next day needs to be written in the OC Slack until 12:00am (UTC+2).
 
       - Offline Challenge Track:
         - Teams need to register their challenge runs within the pre-scheduled challenge time slots.
     img: ""
-    schedulehead: "2023 April"
+    schedulehead: "Schedule, April 24 - 30, 2023"
     schedule:
       - mon:
         day: "24th"
