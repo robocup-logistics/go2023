@@ -65,7 +65,24 @@ event:
         special: "Invited Delegation"
   card3:
     title: "Schedule"
-    text: "The competition will take place between April 24th and April 30th, 2023, with the first and last day reserved for arrival and departure. A detailed schedule will be released in the next weeks."
+    text: |
+      The competition will take place between April 24th and April 30th, 2023, with the first and last day reserved for arrival and departure
+
+      Game Setup:
+      - Both teams need to be ready to start the game within 30 minutes, else the other team wins the slot.
+      - If both teams are not ready, the winner is decided by tossing a coin.
+
+      Challenge Track:
+      - The result of each challenge slot must be posted to the OC Slack channel within 1 hour after the end of the slot.
+
+      - Online Challenge Track:
+        - Participants can schedule up to six 30-minute slots between 24.04. 00:00 and 29.04. 16:00.
+        - Live stream needs to be provided.
+        - The video of each challenge needs to be send to the OC before 29.04. 24:00 via email: robocup-logistics-oc@lists.rwth-aachen.de
+        - Challenge schedule for the next day needs to be written in the OC slack until 24:00.
+
+      - Offline Challenge Track:
+        - Teams need to register their challenge runs within the pre-scheduled challenge time slots.
     img: ""
     schedulehead: "2023 April"
     schedule:
