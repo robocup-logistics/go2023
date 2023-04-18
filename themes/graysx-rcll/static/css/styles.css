@@ -12798,3 +12798,7 @@ body {
 .card3-text ul {
   text-align: left !important;
 }
+
+.text-thin {
+  font-weight: 100;
+}
