@@ -63,6 +63,12 @@ event:
         university: "National Autonomous University of Mexico"
         country: "Mexico"
         special: "Invited Delegation"
+  card4:
+    title: "Find us!"
+    text: |
+      The event takes place in the M.A.R.S. hall at the building of the cluster production technology at Campus Boulevard 30,
+      Campus Melaten, RWTH Aachen University. Our location was kindly provided by WZL.
+    img: "assets/img/map.png"
   card3:
     title: "Schedule and Procedures"
     text: |

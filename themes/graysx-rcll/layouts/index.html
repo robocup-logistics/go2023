@@ -177,6 +177,28 @@
                     </div>
                 </div>
             </div>
+            <!-- asdf -->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6">
+                    <div class="bg-black h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-lg-left">
+                                <h4 class="text-white text-center ">{{ .card4.title }}</h4>
+                                <div class="mb-0 text-white-50 text-right card3-text">{{ .card4.text | markdownify }}
+                                </div>
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 text-start">
+                    <div class="bg-dark project">
+                        <div class="d-flex h-100"><img class="img-fluid-forced" src="{{ .card4.img }}" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     {{ end }}
